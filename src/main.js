@@ -25,7 +25,6 @@ form.addEventListener('submit', e => {
   fetchImage()
     .then(images => renderGallery(images))
     .catch(error => console.log(error));
-    loader.style.display = 'none';
 
   form.reset();
 });
@@ -87,5 +86,5 @@ function renderGallery(images) {
     
     lightBox.refresh();
   }
-  
+  loader.style.display = 'none';
 }
