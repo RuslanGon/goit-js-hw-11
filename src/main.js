@@ -2,8 +2,8 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-const lightBox = new SimpleLightbox('.gallery-link');
 
+const lightBox = new SimpleLightbox('.gallery-link');
 const form = document.querySelector('.form');
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
